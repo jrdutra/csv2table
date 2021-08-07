@@ -18,9 +18,19 @@
             </textarea>  
         </div>
         <div class="centraliza">
-            <button type="button">Visualizar</button>
+            <button onclick="teste()" type="button">Visualizar</button>
             <button type="button">Download</button>
         </div>
     </div>
+
+    <div id="idRenderizador"></div>
+
+    <script>
+        function teste(){
+            let txtCsv = document.getElementById('idTxtCsv');
+            let renderizador = document.getElementById('idRenderizador');
+            alert(txtCsv.value);
+        }
+    </script>
 </body>
 </html>
