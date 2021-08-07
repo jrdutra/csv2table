@@ -1,0 +1,10 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#principal {
+    width: 600px;
+    min-height: 400px;
+    background: #FDF5E6;
+}
