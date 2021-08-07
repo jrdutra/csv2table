@@ -29,7 +29,10 @@
         function teste(){
             let txtCsv = document.getElementById('idTxtCsv');
             let renderizador = document.getElementById('idRenderizador');
-            alert(txtCsv.value);
+
+            let meuObjeto = JSON.parse(txtCsv.value);
+            
+            renderizador.innerHTML = meuObjeto.site[0].alerts[0].solution;
         }
     </script>
 </body>
